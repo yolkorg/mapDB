@@ -1,0 +1,6 @@
+# modules
+node_modules
+bun.lock
+
+# mac conf
+.DS_Store
