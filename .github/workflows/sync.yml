@@ -1,0 +1,39 @@
+name: Update Maps
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Run scrapers
+        run: |
+          git clone https://github.com/yolkorg/maps maps
+          cd maps
+          bun ./map.ts
+          git diff --quiet ./maps/* || echo "CHANGED=true" >> $GITHUB_ENV
+          echo $GITHUB_ENV
+
+      - name: Commit and push changes
+        if: env.CHANGED == 'true'
+        run: |
+          cd yolkbot
+          git config --global user.name "yolkbot"
+          git config --global user.email "octocat@github.com"
+          git add .
+          git commit -m "update maps" -m "this is an automatic commit that updates map data"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/yolkorg/maps.git
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
