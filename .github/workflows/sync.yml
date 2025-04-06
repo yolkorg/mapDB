@@ -30,8 +30,6 @@ jobs:
         if: env.CHANGED == 'true'
         run: |
           cd maps
-          git config --global user.name "yolkbot"
-          git config --global user.email "octocat@github.com"
           git add .
           git commit -m "update maps" -m "this is an automatic commit that updates map data"
           git push origin main
