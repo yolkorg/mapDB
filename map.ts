@@ -7,12 +7,7 @@ if (!fs.existsSync(path.join(import.meta.dirname, 'maps')))
 const UserAgent =
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
 
-const data = await fetch('https://shellshock.io/js/shellshock.js', {
-    headers: {
-        'User-Agent': UserAgent
-    }
-});
-
+const data = await fetch('https://js.getstate.farm/js/latest.js');
 const js = await data.text();
 
 const match = js.match(/\[\{filename.*?\}\]/)?.[0];
