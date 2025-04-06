@@ -34,4 +34,4 @@ jobs:
           git config --global user.email "octocat@github.com"
           git add .
           git commit -m "update maps" -m "this is an automatic commit that updates map data"
-          git push
+          git push origin main
