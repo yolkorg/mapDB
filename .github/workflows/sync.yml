@@ -33,6 +33,4 @@ jobs:
           git config --global user.name "yolkbot"
           git add .
           git commit -m "update maps" -m "this is an automatic commit that updates map data"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/yolkorg/maps.git
-        env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          git push
