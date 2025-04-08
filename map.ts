@@ -30,7 +30,7 @@ interface Map {
     }
 }
 
-const maps: Map[] = [];
+let maps: Map[] = [];
 
 await Promise.all(parsed.map(async (file: Map) => {
     let req = await fetch(`https://shellshock.io/maps/${file.filename}.json?${file.hash}`, {
@@ -45,7 +45,7 @@ await Promise.all(parsed.map(async (file: Map) => {
     fs.writeFileSync(path.join(import.meta.dirname, 'maps', `${file.filename}.json`), JSON.stringify(data, null, 4));
 }));
 
-const meshNames = [];
+let meshNames = [];
 
 maps.forEach((map: Map) => meshNames = [...meshNames, ...Object.keys(map.data)]);
 
