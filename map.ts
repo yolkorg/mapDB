@@ -45,8 +45,5 @@ await Promise.all(parsed.map(async (file: Map) => {
     fs.writeFileSync(path.join(import.meta.dirname, 'maps', `${file.filename}.json`), JSON.stringify(data, null, 4));
 }));
 
-let meshNames = [];
-
-maps.forEach((map: Map) => meshNames = [...meshNames, ...Object.keys(map.data)]);
-
+const meshNames = [...new Set(maps.flatMap((map: Map) => Object.keys(map.data)))];
 fs.writeFileSync(path.join(import.meta.dirname, 'util', 'meshes.json'), JSON.stringify(meshNames, null, 4));
