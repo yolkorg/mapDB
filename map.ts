@@ -17,13 +17,36 @@ let parsed = [];
 
 eval(`parsed = ${match}`);
 
-parsed.forEach((file: {
+interface Map {
     filename: string;
-    hash: string
-}) => fetch(`https://shellshock.io/maps/${file.filename}.json?${file.hash}`, {
-    headers: {
-        'User-Agent': UserAgent
+    hash: string;
+    data: {
+        [key: string]: {
+            x: number;
+            y: number;
+            z: number;
+            ry: number;
+        }[];
     }
-}).then(res => res.json()).then(data => {
+}
+
+const maps: Map[] = [];
+
+await Promise.all(parsed.map(async (file: Map) => {
+    let req = await fetch(`https://shellshock.io/maps/${file.filename}.json?${file.hash}`, {
+        headers: {
+            'User-Agent': UserAgent
+        }
+    });
+
+    let data = await req.json();
+    maps.push(data);
+
     fs.writeFileSync(path.join(import.meta.dirname, 'maps', `${file.filename}.json`), JSON.stringify(data, null, 4));
-}))
+}));
+
+const meshNames = [];
+
+maps.forEach((map: Map) => meshNames = [...meshNames, ...Object.keys(map.data)]);
+
+fs.writeFileSync(path.join(import.meta.dirname, 'util', 'meshes.json'), JSON.stringify(meshNames, null, 4));
