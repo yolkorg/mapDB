@@ -23,7 +23,7 @@ jobs:
       - name: Run scrapers
         run: |
           bun ./map.ts
-          git diff --quiet --name-status HEAD^ HEAD -- ./maps ./util || echo "CHANGED=true" >> $GITHUB_ENV
+          if git status -s | grep -q .; then echo "CHANGED=true"; else echo "CHANGED=false"; fi >> $GITHUB_ENV
           echo $GITHUB_ENV
 
       - name: Commit and push changes
