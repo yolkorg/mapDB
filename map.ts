@@ -1,8 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-if (!fs.existsSync(path.join(import.meta.dirname, 'maps')))
-    fs.mkdirSync(path.join(import.meta.dirname, 'maps'));
+const mapDir = path.join(import.meta.dirname, 'maps');
+fs.rmSync(mapDir, { recursive: true });
+fs.mkdirSync(mapDir);
 
 const UserAgent =
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
