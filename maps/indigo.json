@@ -4708,6 +4708,12 @@
             },
             {
                 "x": 7,
+                "y": 2,
+                "z": 9,
+                "ry": 1
+            },
+            {
+                "x": 7,
                 "y": 4,
                 "z": 8,
                 "ry": 1
@@ -5231,7 +5237,7 @@
         "rural.ivy-03.none",
         "rural.ivy-01.none",
         "rural.bush.none",
-        "castle.cloud-puffy-single.aabb.soft"
+        "DYNAMIC.capture-zone.none"
     ],
     "render": {
         "Sun": "0.65",
@@ -5248,7 +5254,7 @@
     "height": 10,
     "depth": 26,
     "name": "Indigo",
-    "surfaceArea": 361,
+    "surfaceArea": 360,
     "extents": {
         "x": {
             "max": 39,

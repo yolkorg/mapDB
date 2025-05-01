@@ -3012,30 +3012,6 @@
                 "ry": 3
             },
             {
-                "x": 10,
-                "y": 6,
-                "z": 1,
-                "ry": 3
-            },
-            {
-                "x": 10,
-                "y": 6,
-                "z": 3,
-                "ry": 1
-            },
-            {
-                "x": 11,
-                "y": 6,
-                "z": 1,
-                "ry": 3
-            },
-            {
-                "x": 11,
-                "y": 6,
-                "z": 3,
-                "ry": 1
-            },
-            {
                 "x": 14,
                 "y": 4,
                 "z": 5,
@@ -5386,18 +5362,6 @@
                 "ry": 2
             },
             {
-                "x": 9,
-                "y": 6,
-                "z": 1,
-                "ry": 2
-            },
-            {
-                "x": 9,
-                "y": 6,
-                "z": 3,
-                "ry": 1
-            },
-            {
                 "x": 12,
                 "y": 5,
                 "z": 0
@@ -5930,26 +5894,6 @@
                 "ry": 1
             }
         ],
-        "light.recessed.none": [
-            {
-                "x": 9,
-                "y": 6,
-                "z": 2,
-                "rz": 2
-            },
-            {
-                "x": 10,
-                "y": 6,
-                "z": 2,
-                "rz": 2
-            },
-            {
-                "x": 11,
-                "y": 6,
-                "z": 2,
-                "rz": 2
-            }
-        ],
         "castle.bench.aabb": [
             {
                 "x": 10,
@@ -6243,7 +6187,7 @@
     "height": 7,
     "depth": 14,
     "name": "Yolkido Garrison",
-    "surfaceArea": 345,
+    "surfaceArea": 339,
     "extents": {
         "x": {
             "max": 25,
@@ -6268,6 +6212,6 @@
         "Spatula": true,
         "King": true
     },
-    "availability": "both",
+    "availability": "private",
     "numPlayers": "18"
 }
