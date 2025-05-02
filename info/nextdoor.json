@@ -1,0 +1,13 @@
+{
+    "filename": "nextdoor",
+    "hash": "s2i5za1kx9",
+    "name": "Nextdoor",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

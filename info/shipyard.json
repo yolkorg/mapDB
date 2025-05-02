@@ -1,0 +1,13 @@
+{
+    "filename": "shipyard",
+    "hash": "1n1sptszksq",
+    "name": "Shipyard",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

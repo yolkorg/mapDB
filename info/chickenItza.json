@@ -1,0 +1,13 @@
+{
+    "filename": "chickenItza",
+    "hash": "hyjqbat0i3",
+    "name": "Chicken Itza",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "cash",
+    "hash": "1427gfre8ma",
+    "name": "Cash",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

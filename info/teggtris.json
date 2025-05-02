@@ -1,0 +1,13 @@
+{
+    "filename": "teggtris",
+    "hash": "1y4rswkkv3l",
+    "name": "Teggtris",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

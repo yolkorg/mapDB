@@ -1,0 +1,13 @@
+{
+    "filename": "junction",
+    "hash": "bkca8j2ppd",
+    "name": "Junction",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

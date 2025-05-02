@@ -1,0 +1,13 @@
+{
+    "filename": "hydro",
+    "hash": "8znnxbxfss",
+    "name": "Hydro",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

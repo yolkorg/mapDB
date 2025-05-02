@@ -1,0 +1,13 @@
+{
+    "filename": "field",
+    "hash": "e4aszuch87",
+    "name": "Field",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "10"
+}

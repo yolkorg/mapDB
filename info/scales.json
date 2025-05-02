@@ -1,0 +1,13 @@
+{
+    "filename": "scales",
+    "hash": "101v5lpkv1s",
+    "name": "Scales",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

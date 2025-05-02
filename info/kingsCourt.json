@@ -1,0 +1,13 @@
+{
+    "filename": "kingsCourt",
+    "hash": "aq1t2lsjza",
+    "name": "King's Court",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

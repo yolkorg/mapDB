@@ -1,0 +1,13 @@
+{
+    "filename": "metamorph",
+    "hash": "l9o69l8e1b",
+    "name": "Metamorph",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

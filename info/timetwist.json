@@ -1,0 +1,13 @@
+{
+    "filename": "timetwist",
+    "hash": "1ad75xyk2rv",
+    "name": "Timetwist",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

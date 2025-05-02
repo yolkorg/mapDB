@@ -1,0 +1,13 @@
+{
+    "filename": "wimble",
+    "hash": "13smnxheae1",
+    "name": "Wimble",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

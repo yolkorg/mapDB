@@ -1,0 +1,13 @@
+{
+    "filename": "moonbase",
+    "hash": "1yzocf1mex3",
+    "name": "Moonbase",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

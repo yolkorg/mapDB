@@ -1,0 +1,13 @@
+{
+    "filename": "stage",
+    "hash": "1zn44r9jb3t",
+    "name": "Stage",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "dirt2",
+    "hash": "494aka3mb4",
+    "name": "Dirt 2",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

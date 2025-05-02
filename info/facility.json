@@ -1,0 +1,13 @@
+{
+    "filename": "facility",
+    "hash": "18djbmo35ru",
+    "name": "Facility",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

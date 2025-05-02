@@ -1,0 +1,13 @@
+{
+    "filename": "shellville",
+    "hash": "fdgmkbfe7n",
+    "name": "Shellville",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16"
+}

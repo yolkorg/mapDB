@@ -1,0 +1,13 @@
+{
+    "filename": "crowsnest",
+    "hash": "1ze2s5zr9bm",
+    "name": "Crowsnest",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "8"
+}

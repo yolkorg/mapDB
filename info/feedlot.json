@@ -1,0 +1,13 @@
+{
+    "filename": "feedlot",
+    "hash": "iuj8rc7kyh",
+    "name": "Feedlot",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16"
+}

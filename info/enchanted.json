@@ -1,0 +1,13 @@
+{
+    "filename": "enchanted",
+    "hash": "1igxtcyetaw",
+    "name": "Enchanted",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "quarry",
+    "hash": "2crjk106pa",
+    "name": "Quarry",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "lunarmodule",
+    "hash": "1448aqjdqvl",
+    "name": "Lunar Module",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

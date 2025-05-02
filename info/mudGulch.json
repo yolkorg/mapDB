@@ -1,0 +1,13 @@
+{
+    "filename": "mudGulch",
+    "hash": "kto278skze",
+    "name": "Mud Gulch",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

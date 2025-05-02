@@ -1,0 +1,13 @@
+{
+    "filename": "staxarena",
+    "hash": "1jid8ffda0z",
+    "name": "Stax Arena",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

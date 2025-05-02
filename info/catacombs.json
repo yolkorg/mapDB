@@ -1,0 +1,13 @@
+{
+    "filename": "catacombs",
+    "hash": "2el91jtcun0",
+    "name": "Catacombs",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

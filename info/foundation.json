@@ -1,0 +1,13 @@
+{
+    "filename": "foundation",
+    "hash": "11y636vc64b",
+    "name": "Foundation",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

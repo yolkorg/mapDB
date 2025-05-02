@@ -1,0 +1,13 @@
+{
+    "filename": "indigo",
+    "hash": "1vrzzn6ym9q",
+    "name": "Indigo",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

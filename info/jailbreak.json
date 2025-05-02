@@ -1,0 +1,13 @@
+{
+    "filename": "jailbreak",
+    "hash": "2a3blmd9hf4",
+    "name": "Jail Break",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

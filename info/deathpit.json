@@ -1,0 +1,13 @@
+{
+    "filename": "deathpit",
+    "hash": "1cc9cvjf607",
+    "name": "Death Pit",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

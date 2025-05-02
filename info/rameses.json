@@ -1,0 +1,13 @@
+{
+    "filename": "rameses",
+    "hash": "177jt4j8so9",
+    "name": "Rameses",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "16"
+}

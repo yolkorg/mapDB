@@ -1,0 +1,13 @@
+{
+    "filename": "palaceSiege",
+    "hash": "1enghs5hsxe",
+    "name": "Palace Siege",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14"
+}

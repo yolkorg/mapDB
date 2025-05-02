@@ -1,0 +1,13 @@
+{
+    "filename": "biohazard",
+    "hash": "kzarr9ebqx",
+    "name": "BioHazard",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

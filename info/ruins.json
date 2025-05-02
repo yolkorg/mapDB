@@ -1,0 +1,13 @@
+{
+    "filename": "ruins",
+    "hash": "3ycs8z9bcu",
+    "name": "Ruins",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

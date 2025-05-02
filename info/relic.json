@@ -1,0 +1,13 @@
+{
+    "filename": "relic",
+    "hash": "lxzknz53a2",
+    "name": "Relic",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

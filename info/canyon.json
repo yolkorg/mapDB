@@ -1,0 +1,13 @@
+{
+    "filename": "canyon",
+    "hash": "2avqtv9ygk1",
+    "name": "Canyon",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "road",
+    "hash": "2h312vlocd",
+    "name": "Road",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

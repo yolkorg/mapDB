@@ -1,0 +1,13 @@
+{
+    "filename": "raceway",
+    "hash": "1a3eo6xaoju",
+    "name": "Raceway",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

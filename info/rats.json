@@ -1,0 +1,13 @@
+{
+    "filename": "rats",
+    "hash": "13r2oqql8se",
+    "name": "Rats",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

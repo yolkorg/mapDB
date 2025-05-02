@@ -1,0 +1,13 @@
+{
+    "filename": "uncovered",
+    "hash": "bxrd0zdvtn",
+    "name": "Uncovered",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

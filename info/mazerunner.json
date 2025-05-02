@@ -1,0 +1,13 @@
+{
+    "filename": "mazerunner",
+    "hash": "j16i30k9dz",
+    "name": "Maze Runner",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

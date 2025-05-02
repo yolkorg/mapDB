@@ -1,0 +1,13 @@
+{
+    "filename": "castle",
+    "hash": "2d2tcz2mw7e",
+    "name": "Castle",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

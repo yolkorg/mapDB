@@ -1,0 +1,13 @@
+{
+    "filename": "growler",
+    "hash": "1izyni7tb1e",
+    "name": "Growler",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

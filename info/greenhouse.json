@@ -1,0 +1,13 @@
+{
+    "filename": "greenhouse",
+    "hash": "ffvpjhqou6",
+    "name": "Greenhouse",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "bastion",
+    "hash": "uuwh7401no",
+    "name": "Bastion",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

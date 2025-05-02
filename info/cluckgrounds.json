@@ -1,0 +1,13 @@
+{
+    "filename": "cluckgrounds",
+    "hash": "1h9z3hj51g5",
+    "name": "Cluckgrounds",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "16"
+}

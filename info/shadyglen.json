@@ -1,0 +1,13 @@
+{
+    "filename": "shadyglen",
+    "hash": "2d0d4bj7aq3",
+    "name": "Shady Glen",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

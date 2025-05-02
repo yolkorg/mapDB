@@ -1,0 +1,13 @@
+{
+    "filename": "helix",
+    "hash": "i2sl4vsg3h",
+    "name": "Helix",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

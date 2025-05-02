@@ -1,0 +1,13 @@
+{
+    "filename": "haunted",
+    "hash": "2dma8z1jdev",
+    "name": "Haunted",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16"
+}

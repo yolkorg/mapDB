@@ -1,0 +1,13 @@
+{
+    "filename": "fourQuarters",
+    "hash": "1a0w7vbz8is",
+    "name": "Four Quarters",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "both",
+    "numPlayers": "10"
+}

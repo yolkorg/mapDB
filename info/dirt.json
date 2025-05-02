@@ -1,0 +1,13 @@
+{
+    "filename": "dirt",
+    "hash": "1u3k5nfvwuh",
+    "name": "Dirt",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

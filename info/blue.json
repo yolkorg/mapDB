@@ -1,0 +1,13 @@
+{
+    "filename": "blue",
+    "hash": "2e7izzo70bk",
+    "name": "Blue",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

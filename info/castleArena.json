@@ -1,0 +1,13 @@
+{
+    "filename": "castleArena",
+    "hash": "9dhs3kms6l",
+    "name": "Castle Arena",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "8"
+}

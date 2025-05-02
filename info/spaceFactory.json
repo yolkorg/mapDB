@@ -1,0 +1,13 @@
+{
+    "filename": "spaceFactory",
+    "hash": "10802a2az0f",
+    "name": "Space Factory",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "10"
+}

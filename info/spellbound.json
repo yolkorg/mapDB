@@ -1,0 +1,13 @@
+{
+    "filename": "spellbound",
+    "hash": "1curtd0i4ls",
+    "name": "Spellbound",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

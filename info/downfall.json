@@ -1,0 +1,13 @@
+{
+    "filename": "downfall",
+    "hash": "26g5aj8aruc",
+    "name": "Downfall",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

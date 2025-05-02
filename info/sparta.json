@@ -1,0 +1,13 @@
+{
+    "filename": "sparta",
+    "hash": "274wwdyll9w",
+    "name": "Sparta",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "dirtbase",
+    "hash": "6e9r2y7dxk",
+    "name": "Dirt Base",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "10"
+}

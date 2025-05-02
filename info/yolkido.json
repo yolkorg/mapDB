@@ -1,0 +1,13 @@
+{
+    "filename": "yolkido",
+    "hash": "pttsmqw7xj",
+    "name": "Yolkido Garrison",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

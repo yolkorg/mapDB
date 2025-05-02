@@ -1,0 +1,13 @@
+{
+    "filename": "aqueduct",
+    "hash": "11dp765kifr",
+    "name": "Aqueduct",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

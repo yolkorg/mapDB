@@ -1,0 +1,13 @@
+{
+    "filename": "queenscourt",
+    "hash": "raudy4h9pv",
+    "name": "Queen's Court",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

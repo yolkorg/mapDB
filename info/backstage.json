@@ -1,0 +1,13 @@
+{
+    "filename": "backstage",
+    "hash": "9dsromfqr1",
+    "name": "Backstage",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

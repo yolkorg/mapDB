@@ -1,0 +1,13 @@
+{
+    "filename": "eggcrates",
+    "hash": "j0i36e808n",
+    "name": "Eggcrates",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

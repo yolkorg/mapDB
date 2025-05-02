@@ -1,0 +1,13 @@
+{
+    "filename": "starship",
+    "hash": "27xerc3smw5",
+    "name": "Starship",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

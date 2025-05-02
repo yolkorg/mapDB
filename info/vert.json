@@ -1,0 +1,13 @@
+{
+    "filename": "vert",
+    "hash": "25a9ikled77",
+    "name": "Vert",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "outer",
+    "hash": "w1biqokp89",
+    "name": "Outer Reach",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

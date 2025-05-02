@@ -1,0 +1,13 @@
+{
+    "filename": "treefort",
+    "hash": "14a9akanqms",
+    "name": "Tree Fort",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

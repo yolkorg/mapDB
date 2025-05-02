@@ -1,0 +1,13 @@
+{
+    "filename": "duelPyramid",
+    "hash": "vmg0rj2e3b",
+    "name": "Duel Pyramid",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

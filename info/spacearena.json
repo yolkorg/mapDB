@@ -1,0 +1,13 @@
+{
+    "filename": "spacearena",
+    "hash": "k9zf5lqzze",
+    "name": "Space Arena",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

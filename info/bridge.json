@@ -1,0 +1,13 @@
+{
+    "filename": "bridge",
+    "hash": "20vcy8e1ev0",
+    "name": "Bridge",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

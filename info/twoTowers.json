@@ -1,0 +1,13 @@
+{
+    "filename": "twoTowers",
+    "hash": "2asidv5c0ff",
+    "name": "Two Towers",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

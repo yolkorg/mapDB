@@ -1,0 +1,13 @@
+{
+    "filename": "jinx",
+    "hash": "24u6pohagnj",
+    "name": "Jinx",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

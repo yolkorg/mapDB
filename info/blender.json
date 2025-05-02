@@ -1,0 +1,13 @@
+{
+    "filename": "blender",
+    "hash": "1vvfxp9rt8u",
+    "name": "Blender",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14"
+}

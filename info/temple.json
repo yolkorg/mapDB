@@ -1,0 +1,13 @@
+{
+    "filename": "temple",
+    "hash": "bp6twwct9v",
+    "name": "Temple",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "wreckage",
+    "hash": "nkiu4z6uj1",
+    "name": "Wreckage",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

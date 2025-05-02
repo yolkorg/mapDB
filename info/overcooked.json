@@ -1,0 +1,13 @@
+{
+    "filename": "overcooked",
+    "hash": "29ca98hgdeh",
+    "name": "Overcooked",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "12"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "exposure",
+    "hash": "15hv3cme1fh",
+    "name": "Exposure",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

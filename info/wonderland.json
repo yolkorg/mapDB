@@ -1,0 +1,13 @@
+{
+    "filename": "wonderland",
+    "hash": "5n6ixyepvy",
+    "name": "Wonderland",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

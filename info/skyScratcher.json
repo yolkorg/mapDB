@@ -1,0 +1,13 @@
+{
+    "filename": "skyScratcher",
+    "hash": "1th1c8epp95",
+    "name": "Sky Scratcher",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

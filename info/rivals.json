@@ -1,0 +1,13 @@
+{
+    "filename": "rivals",
+    "hash": "26fkvcef2h6",
+    "name": "Rivals",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6"
+}

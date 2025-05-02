@@ -1,0 +1,13 @@
+{
+    "filename": "fortFlip",
+    "hash": "1w1b6dkalc2",
+    "name": "Fort Flip",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

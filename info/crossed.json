@@ -1,0 +1,13 @@
+{
+    "filename": "crossed",
+    "hash": "ead3tcf30r",
+    "name": "Crossed",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

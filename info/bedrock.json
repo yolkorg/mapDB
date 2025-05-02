@@ -1,0 +1,13 @@
+{
+    "filename": "bedrock",
+    "hash": "yqbkimntiu",
+    "name": "Bedrock",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "12"
+}

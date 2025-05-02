@@ -1,0 +1,13 @@
+{
+    "filename": "mansion",
+    "hash": "nqhtvwj3fo",
+    "name": "Mansion",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}
