@@ -2,11 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const mapDir = path.join(import.meta.dirname, 'maps');
-fs.rmSync(mapDir, { recursive: true });
+if (fs.existsSync(mapDir)) fs.rmSync(mapDir, { recursive: true });
 fs.mkdirSync(mapDir);
 
 const infoDir = path.join(import.meta.dirname, 'info');
-fs.rmSync(infoDir, { recursive: true });
+if (fs.existsSync(infoDir)) fs.rmSync(infoDir, { recursive: true });
 fs.mkdirSync(infoDir);
 
 const UserAgent =
