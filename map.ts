@@ -5,6 +5,10 @@ const mapDir = path.join(import.meta.dirname, 'maps');
 fs.rmSync(mapDir, { recursive: true });
 fs.mkdirSync(mapDir);
 
+const infoDir = path.join(import.meta.dirname, 'info');
+fs.rmSync(infoDir, { recursive: true });
+fs.mkdirSync(infoDir);
+
 const UserAgent =
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
 
@@ -19,7 +23,7 @@ let parsed = [];
 eval(`parsed = ${match}`);
 
 parsed.forEach((mapInfo) => {
-    fs.writeFileSync(path.join(import.meta.dirname, 'info', `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
+    fs.writeFileSync(path.join(infoDir, `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
 });
 
 interface Map {
@@ -47,7 +51,7 @@ await Promise.all(parsed.map(async (file: Map) => {
     let data = await req.json();
     maps.push(data);
 
-    fs.writeFileSync(path.join(import.meta.dirname, 'maps', `${file.filename}.json`), JSON.stringify(data, null, 4));
+    fs.writeFileSync(path.join(mapDir, `${file.filename}.json`), JSON.stringify(data, null, 4));
 }));
 
 const meshNames = [...new Set(maps.flatMap((map: Map) => Object.keys(map.data)))].sort();
