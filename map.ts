@@ -18,6 +18,10 @@ let parsed = [];
 
 eval(`parsed = ${match}`);
 
+parsed.forEach((mapInfo) => {
+    fs.writeFileSync(path.join(import.meta.dirname, 'info', `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
+});
+
 interface Map {
     filename: string;
     hash: string;
