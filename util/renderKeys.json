@@ -1,0 +1,15 @@
+[
+    "AO",
+    "Diffuse",
+    "Direct",
+    "Dirt",
+    "Environment",
+    "FogDensity",
+    "Indirect",
+    "Lights",
+    "LightsReflect",
+    "Reflect",
+    "Sun",
+    "SunReflect",
+    "pointLightIntensity"
+]

@@ -37,6 +37,9 @@ interface Map {
             ry: number;
         }[];
     }
+    render: {
+        [key: string]: string | number;
+    }
 }
 
 let maps: Map[] = [];
@@ -56,3 +59,6 @@ await Promise.all(parsed.map(async (file: Map) => {
 
 const meshNames = [...new Set(maps.flatMap((map: Map) => Object.keys(map.data)))].sort();
 fs.writeFileSync(path.join(import.meta.dirname, 'util', 'meshes.json'), JSON.stringify(meshNames, null, 4));
+
+const renderKeys = [...new Set(maps.flatMap((map: Map) => Object.keys(map.render)))].sort();
+fs.writeFileSync(path.join(import.meta.dirname, 'util', 'renderKeys.json'), JSON.stringify(renderKeys, null, 4));
