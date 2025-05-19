@@ -20,6 +20,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Install yolkbot
+        run: |
+          bun i yolkbot@latest
+
       - name: Run scrapers
         run: |
           bun ./map.ts
