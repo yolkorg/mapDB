@@ -21,7 +21,7 @@ const data = await fetch('https://shellshock.io/js/shellshock.js', {
 });
 
 const rawJS = await data.text();
-const js = await process(js);
+const js = await process(rawJS);
 
 const match = js.match(/\[\{filename.*?\}\]/)?.[0];
 
