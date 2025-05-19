@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+import { process } from 'yolkbot/wasm';
+
 const mapDir = path.join(import.meta.dirname, 'maps');
 if (fs.existsSync(mapDir)) fs.rmSync(mapDir, { recursive: true });
 fs.mkdirSync(mapDir);
@@ -12,8 +14,14 @@ fs.mkdirSync(infoDir);
 const UserAgent =
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
 
-const data = await fetch('https://archive.getstate.farm/js/latest.js');
-const js = await data.text();
+const data = await fetch('https://shellshock.io/js/shellshock.js', {
+    headers: {
+        'User-Agent': UserAgent
+    }
+});
+
+const rawJS = await data.text();
+const js = await process(js);
 
 const match = js.match(/\[\{filename.*?\}\]/)?.[0];
 
