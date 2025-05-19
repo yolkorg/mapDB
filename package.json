@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "yolkbot": "latest"
+        "yolkbot": "^1.0.9"
     },
     "devDependencies": {
         "@types/node": "^22.15.3"
