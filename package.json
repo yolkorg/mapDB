@@ -1,8 +1,8 @@
 {
     "dependencies": {
-        "yolkbot": "^1.0.18"
+        "yolkbot": "latest"
     },
     "devDependencies": {
-        "@types/node": "^22.15.24"
+        "@types/node": "latest"
     }
 }
