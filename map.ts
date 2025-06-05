@@ -30,6 +30,8 @@ let parsed = [];
 
 eval(`parsed = ${match}`);
 
+fs.writeFileSync(path.join(import.meta.dirname, 'util', 'index.json'), JSON.stringify(parsed, null, 4));
+
 parsed.forEach((mapInfo) => {
     fs.writeFileSync(path.join(infoDir, `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
 });
