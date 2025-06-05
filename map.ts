@@ -11,6 +11,10 @@ const infoDir = path.join(import.meta.dirname, 'info');
 if (fs.existsSync(infoDir)) fs.rmSync(infoDir, { recursive: true });
 fs.mkdirSync(infoDir);
 
+const imgDir = path.join(import.meta.dirname, 'img');
+if (fs.existsSync(imgDir)) fs.rmSync(imgDir, { recursive: true });
+fs.mkdirSync(imgDir);
+
 const UserAgent =
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
 
@@ -32,8 +36,12 @@ eval(`parsed = ${match}`);
 
 fs.writeFileSync(path.join(import.meta.dirname, 'util', 'index.json'), JSON.stringify(parsed, null, 4));
 
-parsed.forEach((mapInfo) => {
+parsed.forEach(async (mapInfo) => {
     fs.writeFileSync(path.join(infoDir, `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
+
+    const img = await fetch('https://shellshock.io/maps/' + mapInfo.filename + '.png?' + mapInfo.hash);
+    const buffer = Buffer.from(await img.arrayBuffer());
+    fs.writeFileSync(path.join(import.meta.dirname, 'img', mapInfo.filename + '.png'), buffer);
 });
 
 interface Map {
