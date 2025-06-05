@@ -22,7 +22,7 @@ jobs:
 
       - name: Install yolkbot
         run: |
-          bun i yolkbot@latest
+          bun install --no-save yolkbot@latest
 
       - name: Run scrapers
         run: |
