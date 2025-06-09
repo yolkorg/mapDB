@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '*/60 * * * *'
+    - cron: '*/100 * * * *'
 
 jobs:
   scrape:
@@ -36,5 +36,5 @@ jobs:
           git config --global user.name "yolkbot"
           git config --global user.email "octocat@nowhere.com"
           git add .
-          git commit -m "update maps" -m "this is an automatic commit that updates map data"
+          git commit -m "update maps" -m "this is a fully automatic commit"
           git push origin main
