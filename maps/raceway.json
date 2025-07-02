@@ -7626,6 +7626,6 @@
         "Spatula": true,
         "King": true
     },
-    "availability": "both",
+    "availability": "private",
     "numPlayers": "18"
 }

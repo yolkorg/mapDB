@@ -1,7 +1,7 @@
 {
-    "filename": "backstage",
-    "hash": "9dsromfqr1",
-    "name": "Backstage",
+    "filename": "inmates",
+    "hash": "19wzahko4nm",
+    "name": "Inmates",
     "modes": {
         "FFA": true,
         "Teams": true,
@@ -9,5 +9,5 @@
         "King": true
     },
     "availability": "both",
-    "numPlayers": "14"
+    "numPlayers": "18"
 }

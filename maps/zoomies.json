@@ -973,7 +973,19 @@
             {
                 "x": 1,
                 "y": 1,
+                "z": 24,
+                "ry": 3
+            },
+            {
+                "x": 1,
+                "y": 1,
                 "z": 25,
+                "ry": 3
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "z": 24,
                 "ry": 3
             },
             {
@@ -8082,7 +8094,7 @@
         "rural.stone-edge.aabb",
         "shipyard.crate-metal-single.aabb",
         "nature.ground_01.full",
-        "castle.stairs.wedge",
+        "SPECIAL.barrier.full",
         "SPECIAL.spatula.none",
         "castle.cloud-puffy-single.aabb.soft",
         "castle.brick-wall.aabb",
@@ -8107,7 +8119,7 @@
     "height": 10,
     "depth": 26,
     "name": "Zoomies",
-    "surfaceArea": 692,
+    "surfaceArea": 691,
     "extents": {
         "x": {
             "max": 34,
@@ -8132,6 +8144,6 @@
         "Spatula": true,
         "King": true
     },
-    "availability": "both",
+    "availability": "private",
     "numPlayers": "18"
 }
