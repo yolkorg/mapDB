@@ -1,13 +1,13 @@
 {
-    "filename": "teggtris",
-    "hash": "1y4rswkkv3l",
-    "name": "Teggtris",
+    "filename": "cobalt",
+    "hash": "1c9fg9re2mf",
+    "name": "Cobalt",
     "modes": {
         "FFA": true,
         "Teams": true,
         "Spatula": true,
         "King": true
     },
-    "availability": "private",
+    "availability": "both",
     "numPlayers": "18"
 }

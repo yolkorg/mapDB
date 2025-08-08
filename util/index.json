@@ -9,7 +9,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -22,7 +22,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "14"
     },
     {
@@ -35,7 +35,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -74,7 +74,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -87,7 +87,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -113,7 +113,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -191,8 +191,21 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "16"
+    },
+    {
+        "filename": "cobalt",
+        "hash": "1c9fg9re2mf",
+        "name": "Cobalt",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
     },
     {
         "filename": "crossed",
@@ -334,7 +347,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -347,7 +360,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -386,7 +399,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -399,7 +412,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -425,7 +438,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -438,7 +451,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -477,7 +490,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -503,7 +516,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -516,7 +529,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "14"
     },
     {
@@ -594,7 +607,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -646,7 +659,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -659,7 +672,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -685,7 +698,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -698,7 +711,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -763,7 +776,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -815,7 +828,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -828,7 +841,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -867,7 +880,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -880,7 +893,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "10"
     },
     {
@@ -971,7 +984,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -1036,7 +1049,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -1049,7 +1062,7 @@
             "Spatula": true,
             "King": false
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "12"
     },
     {
