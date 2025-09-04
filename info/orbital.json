@@ -1,7 +1,7 @@
 {
-    "filename": "lunarmodule",
-    "hash": "1448aqjdqvl",
-    "name": "Lunar Module",
+    "filename": "orbital",
+    "hash": "76g9ms7t5o",
+    "name": "Orbital",
     "modes": {
         "FFA": true,
         "Teams": true,
