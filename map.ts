@@ -36,13 +36,41 @@ eval(`parsed = ${match}`);
 
 fs.writeFileSync(path.join(import.meta.dirname, 'util', 'index.json'), JSON.stringify(parsed, null, 4));
 
-parsed.forEach(async (mapInfo) => {
+async function fetchWithRetry(url: string, maxRetries: number = 3): Promise<Response> {
+    let lastError: Error | null = null;
+    
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response;
+        } catch (error) {
+            lastError = error as Error;
+            console.error(`Attempt ${attempt}/${maxRetries} failed for ${url}: ${lastError.message}`);
+            
+            if (attempt < maxRetries) {
+                // Optional: Add a small delay between retries
+                await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+            }
+        }
+    }
+    
+    throw new Error(`Failed to fetch ${url} after ${maxRetries} attempts: ${lastError?.message}`);
+}
+
+await Promise.all(parsed.map(async (mapInfo) => {
     fs.writeFileSync(path.join(infoDir, `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
 
-    const img = await fetch('https://shellshock.io/maps/' + mapInfo.filename + '.png?' + mapInfo.hash);
-    const buffer = Buffer.from(await img.arrayBuffer());
-    fs.writeFileSync(path.join(import.meta.dirname, 'img', mapInfo.filename + '.png'), buffer);
-});
+    try {
+        const img = await fetchWithRetry('https://shellshock.io/maps/' + mapInfo.filename + '.png?' + mapInfo.hash);
+        const buffer = Buffer.from(await img.arrayBuffer());
+        fs.writeFileSync(path.join(import.meta.dirname, 'img', mapInfo.filename + '.png'), buffer);
+    } catch (error) {
+        console.error(`Failed to download image for ${mapInfo.filename}: ${(error as Error).message}`);
+    }
+}));
 
 interface Map {
     filename: string;
