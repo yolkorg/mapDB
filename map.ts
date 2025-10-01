@@ -42,17 +42,12 @@ const fetchWithRetry = async (url: string, maxRetries: number = 3): Promise<Resp
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
             const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             return response;
         } catch (error) {
             lastError = error as Error;
             console.error(`Attempt ${attempt}/${maxRetries} failed for ${url}: ${lastError.message}`);
-            
-            if (attempt < maxRetries) {
-                await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
-            }
+            if (attempt < maxRetries) await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
         }
     }
     
