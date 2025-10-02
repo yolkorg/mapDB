@@ -1,0 +1,13 @@
+{
+    "filename": "roadh",
+    "hash": "oncbwn9rua",
+    "name": "Road After Dark",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14"
+}

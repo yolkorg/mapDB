@@ -1,0 +1,13 @@
+{
+    "filename": "blueh",
+    "hash": "1tlp4a53c5g",
+    "name": "Blue Up",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14"
+}

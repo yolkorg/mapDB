@@ -1,0 +1,13 @@
+{
+    "filename": "creak",
+    "hash": "l2pzui2f6o",
+    "name": "Creak",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

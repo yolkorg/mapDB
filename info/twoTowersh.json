@@ -1,0 +1,13 @@
+{
+    "filename": "twoTowersh",
+    "hash": "29x5w95f3fw",
+    "name": "Two More Towers",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}
