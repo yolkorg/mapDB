@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { process } from 'yolkbot/wasm';
+import { processJS } from 'yolkbot/wasm';
 
 const mapDir = path.join(import.meta.dirname, 'maps');
 if (fs.existsSync(mapDir)) fs.rmSync(mapDir, { recursive: true });
@@ -25,12 +25,12 @@ const data = await fetch('https://shellshock.io/js/shellshock.js', {
 });
 
 const rawJS = await data.text();
-const js = await process(rawJS);
+const js = processJS(rawJS);
 
 const match = js.match(/\[\{filename.*?\}\]/)?.[0];
 
 // eslint-disable-next-line prefer-const
-let parsed = [];
+let parsed: any[] = [];
 
 eval(`parsed = ${match}`);
 
