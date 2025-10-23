@@ -1,10 +1,7 @@
 name: Upscale Images
 
 on:
-  push:
   workflow_dispatch:
-  schedule:
-   - cron: '0 */2 * * *'
 
 jobs:
   scrape:
