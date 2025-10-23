@@ -65,8 +65,7 @@ const upscale = async (input: Buffer): Promise<Buffer> => {
     return resultBuffer;
 };
 
-if (fs.existsSync(upscaleDir)) fs.rmdirSync(upscaleDir, { recursive: true });
-fs.mkdirSync(upscaleDir);
+if (!fs.existsSync(upscaleDir)) fs.mkdirSync(upscaleDir);
 
 const imgFiles = fs.readdirSync(imgDir).filter(file => file.endsWith('.png'));
 
