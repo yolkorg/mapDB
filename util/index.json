@@ -48,7 +48,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "12"
     },
     {
@@ -87,19 +87,6 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
-        "numPlayers": "14"
-    },
-    {
-        "filename": "blueh",
-        "hash": "1tlp4a53c5g",
-        "name": "Blue Up",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
         "availability": "both",
         "numPlayers": "14"
     },
@@ -127,19 +114,6 @@
             "King": true
         },
         "availability": "private",
-        "numPlayers": "18"
-    },
-    {
-        "filename": "canyonh",
-        "hash": "1k338pkqet2",
-        "name": "Canyon After Dark",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -191,7 +165,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -204,7 +178,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -221,19 +195,6 @@
         "numPlayers": "16"
     },
     {
-        "filename": "cluckgroundsh",
-        "hash": "ftblp6r5pi",
-        "name": "Chrome Cluckgrounds",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "both",
-        "numPlayers": "16"
-    },
-    {
         "filename": "cobalt",
         "hash": "1c9fg9re2mf",
         "name": "Cobalt",
@@ -243,7 +204,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -273,35 +234,9 @@
         "numPlayers": "12"
     },
     {
-        "filename": "crossedh",
-        "hash": "11obqwowjh9",
-        "name": "Crossed after dark",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "private",
-        "numPlayers": "12"
-    },
-    {
         "filename": "crowsnest",
         "hash": "1ze2s5zr9bm",
         "name": "Crowsnest",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "private",
-        "numPlayers": "8"
-    },
-    {
-        "filename": "crowsnesth",
-        "hash": "skib4jqt36",
-        "name": "Crowsnest After Dark",
         "modes": {
             "FFA": true,
             "Teams": true,
@@ -334,7 +269,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -347,7 +282,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -451,7 +386,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "16"
     },
     {
@@ -466,6 +401,19 @@
         },
         "availability": "private",
         "numPlayers": "10"
+    },
+    {
+        "filename": "flux",
+        "hash": "2e9jbskip5u",
+        "name": "Flux",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
     },
     {
         "filename": "fortFlip",
@@ -503,7 +451,7 @@
             "Spatula": true,
             "King": false
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "10"
     },
     {
@@ -529,7 +477,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "12"
     },
     {
@@ -542,7 +490,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "16"
     },
     {
@@ -594,7 +542,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "18"
     },
     {
@@ -620,7 +568,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -672,7 +620,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -776,7 +724,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "12"
     },
     {
@@ -803,19 +751,6 @@
             "King": true
         },
         "availability": "private",
-        "numPlayers": "14"
-    },
-    {
-        "filename": "quarryh",
-        "hash": "smnueqn94r",
-        "name": "Quarry After Dark",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -910,19 +845,6 @@
         "numPlayers": "14"
     },
     {
-        "filename": "roadh",
-        "hash": "oncbwn9rua",
-        "name": "Road After Dark",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "private",
-        "numPlayers": "14"
-    },
-    {
         "filename": "ruins",
         "hash": "3ycs8z9bcu",
         "name": "Ruins",
@@ -932,7 +854,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -958,7 +880,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "12"
     },
     {
@@ -971,7 +893,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "16"
     },
     {
@@ -984,7 +906,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -1153,7 +1075,7 @@
             "Spatula": true,
             "King": false
         },
-        "availability": "private",
+        "availability": "both",
         "numPlayers": "6"
     },
     {
@@ -1167,19 +1089,6 @@
             "King": true
         },
         "availability": "private",
-        "numPlayers": "18"
-    },
-    {
-        "filename": "twoTowersh",
-        "hash": "29x5w95f3fw",
-        "name": "Two More Towers",
-        "modes": {
-            "FFA": true,
-            "Teams": true,
-            "Spatula": true,
-            "King": true
-        },
-        "availability": "both",
         "numPlayers": "18"
     },
     {
