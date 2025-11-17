@@ -1,10 +1,10 @@
 name: Update Maps
 
 on:
-  push:
+  # push:
   workflow_dispatch:
-  schedule:
-   - cron: '0 */2 * * *'
+  # schedule:
+  #  - cron: '0 */2 * * *'
 
 jobs:
   scrape:
