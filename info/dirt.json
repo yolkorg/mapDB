@@ -1,6 +1,6 @@
 {
     "filename": "dirt",
-    "hash": "1u3k5nfvwuh",
+    "hash": "b1qyf0737g",
     "name": "Dirt",
     "modes": {
         "FFA": true,
@@ -8,6 +8,6 @@
         "Spatula": true,
         "King": true
     },
-    "availability": "both",
+    "availability": "private",
     "numPlayers": "18"
 }

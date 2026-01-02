@@ -1,0 +1,13 @@
+{
+    "filename": "icebox",
+    "hash": "f0fagzp3rq",
+    "name": "Ice Box",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

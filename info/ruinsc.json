@@ -1,0 +1,13 @@
+{
+    "filename": "ruinsc",
+    "hash": "28xym3kzyae",
+    "name": "Ruins Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

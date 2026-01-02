@@ -1,0 +1,13 @@
+{
+    "filename": "mudGulchc",
+    "hash": "az93pxklzl",
+    "name": "Mud Gulch Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14"
+}
