@@ -55,12 +55,15 @@ const fetchWithRetry = async (url: string, maxRetries: number = 3): Promise<Resp
 };
 
 await Promise.all(parsed.map(async (mapInfo) => {
-    fs.writeFileSync(path.join(infoDir, `${mapInfo.filename}.json`), JSON.stringify(mapInfo, null, 4));
+    fs.writeFileSync(path.join(infoDir, `${mapInfo.filename.trim()}.json`), JSON.stringify({
+        ...mapInfo,
+        filename: mapInfo.filename.trim()
+    }, null, 4));
 
     try {
         const img = await fetchWithRetry('https://shellshock.io/maps/' + mapInfo.filename + '.png?' + mapInfo.hash);
         const buffer = Buffer.from(await img.arrayBuffer());
-        fs.writeFileSync(path.join(import.meta.dirname, 'img', mapInfo.filename + '.png'), buffer);
+        fs.writeFileSync(path.join(import.meta.dirname, 'img', mapInfo.filename.trim() + '.png'), buffer);
     } catch (error) {
         console.error(`Failed to download image for ${mapInfo.filename}: ${(error as Error).message}`);
     }
@@ -94,7 +97,7 @@ await Promise.all(parsed.map(async (file: Map) => {
     let data = await req.json();
     maps.push(data);
 
-    fs.writeFileSync(path.join(mapDir, `${file.filename}.json`), JSON.stringify(data, null, 4));
+    fs.writeFileSync(path.join(mapDir, `${file.filename.trim()}.json`), JSON.stringify(data, null, 4));
 }));
 
 const meshNames = [...new Set(maps.flatMap((map: Map) => Object.keys(map.data)))].sort();
