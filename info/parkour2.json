@@ -1,0 +1,13 @@
+{
+    "filename": "parkour2",
+    "hash": "25n7k671t0e",
+    "name": "Parkour - Medium",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

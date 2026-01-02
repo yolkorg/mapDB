@@ -48,7 +48,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -87,7 +87,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "14"
     },
     {
@@ -195,6 +195,19 @@
         "numPlayers": "16"
     },
     {
+        "filename": "cluckgroundsc",
+        "hash": "1cs0ohms4c",
+        "name": "Cluckgrounds Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "16"
+    },
+    {
         "filename": "cobalt",
         "hash": "1c9fg9re2mf",
         "name": "Cobalt",
@@ -204,7 +217,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -217,7 +230,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -260,8 +273,8 @@
         "numPlayers": "12"
     },
     {
-        "filename": "dirt",
-        "hash": "1u3k5nfvwuh",
+        "filename": "dirt ",
+        "hash": "b1qyf0737g",
         "name": "Dirt",
         "modes": {
             "FFA": true,
@@ -269,7 +282,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -282,7 +295,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -297,6 +310,19 @@
         },
         "availability": "private",
         "numPlayers": "10"
+    },
+    {
+        "filename": "dirtc",
+        "hash": "2fh0fc2pn37",
+        "name": "Dirt Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
     },
     {
         "filename": "downfall",
@@ -377,6 +403,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "facilityc",
+        "hash": "1aqa5mgwc2y",
+        "name": "Facility Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "feedlot",
         "hash": "iuj8rc7kyh",
         "name": "Feedlot",
@@ -387,6 +426,19 @@
             "King": true
         },
         "availability": "private",
+        "numPlayers": "16"
+    },
+    {
+        "filename": "feedlotc",
+        "hash": "6fyf32okm3",
+        "name": "Feedlot Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
         "numPlayers": "16"
     },
     {
@@ -451,7 +503,7 @@
             "Spatula": true,
             "King": false
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "10"
     },
     {
@@ -477,7 +529,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -520,6 +572,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "icebox",
+        "hash": "f0fagzp3rq",
+        "name": "Ice Box",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "indigo",
         "hash": "1vrzzn6ym9q",
         "name": "Indigo",
@@ -542,7 +607,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "18"
     },
     {
@@ -637,6 +702,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "mazerunnerc",
+        "hash": "1epkcbe77ti",
+        "name": "Maze Runner Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "metamorph",
         "hash": "l9o69l8e1b",
         "name": "Metamorph",
@@ -663,6 +741,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "moonbasec",
+        "hash": "1ky3sogeibd",
+        "name": "Moonbase Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "mudGulch",
         "hash": "kto278skze",
         "name": "Mud Gulch",
@@ -673,6 +764,19 @@
             "King": true
         },
         "availability": "private",
+        "numPlayers": "14"
+    },
+    {
+        "filename": "mudGulchc",
+        "hash": "az93pxklzl",
+        "name": "Mud Gulch Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
         "numPlayers": "14"
     },
     {
@@ -715,6 +819,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "outerC",
+        "hash": "23giy54l74i",
+        "name": "Outer Reach Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "overcooked",
         "hash": "29ca98hgdeh",
         "name": "Overcooked",
@@ -724,7 +841,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -739,6 +856,45 @@
         },
         "availability": "private",
         "numPlayers": "14"
+    },
+    {
+        "filename": "parkour1",
+        "hash": "1fwysuizmoy",
+        "name": "Parkour - Easy",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": false
+        },
+        "availability": "private",
+        "numPlayers": "18"
+    },
+    {
+        "filename": "parkour2",
+        "hash": "25n7k671t0e",
+        "name": "Parkour - Medium",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": false
+        },
+        "availability": "private",
+        "numPlayers": "18"
+    },
+    {
+        "filename": "parkour3",
+        "hash": "pm58s3bnil",
+        "name": "Parkour - Hard",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": false
+        },
+        "availability": "private",
+        "numPlayers": "12"
     },
     {
         "filename": "quarry",
@@ -858,6 +1014,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "ruinsc",
+        "hash": "28xym3kzyae",
+        "name": "Ruins Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "private",
+        "numPlayers": "18"
+    },
+    {
         "filename": "scales",
         "hash": "101v5lpkv1s",
         "name": "Scales",
@@ -871,6 +1040,19 @@
         "numPlayers": "18"
     },
     {
+        "filename": "scalesc",
+        "hash": "1u15kol0ai2",
+        "name": "Scales Eggsmas",
+        "modes": {
+            "FFA": true,
+            "Teams": true,
+            "Spatula": true,
+            "King": true
+        },
+        "availability": "both",
+        "numPlayers": "18"
+    },
+    {
         "filename": "shadyglen",
         "hash": "2d0d4bj7aq3",
         "name": "Shady Glen",
@@ -880,7 +1062,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "12"
     },
     {
@@ -893,7 +1075,7 @@
             "Spatula": true,
             "King": true
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "16"
     },
     {
@@ -1075,7 +1257,7 @@
             "Spatula": true,
             "King": false
         },
-        "availability": "both",
+        "availability": "private",
         "numPlayers": "6"
     },
     {

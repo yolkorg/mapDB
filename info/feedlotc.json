@@ -1,0 +1,13 @@
+{
+    "filename": "feedlotc",
+    "hash": "6fyf32okm3",
+    "name": "Feedlot Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "16"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "mazerunnerc",
+    "hash": "1epkcbe77ti",
+    "name": "Maze Runner Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}
