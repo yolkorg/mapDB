@@ -1,0 +1,13 @@
+{
+    "filename": "parkour3",
+    "hash": "pm58s3bnil",
+    "name": "Parkour - Hard",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "12"
+}

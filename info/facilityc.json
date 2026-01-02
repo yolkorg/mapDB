@@ -1,0 +1,13 @@
+{
+    "filename": "facilityc",
+    "hash": "1aqa5mgwc2y",
+    "name": "Facility Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

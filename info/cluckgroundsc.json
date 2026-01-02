@@ -1,0 +1,13 @@
+{
+    "filename": "cluckgroundsc",
+    "hash": "1cs0ohms4c",
+    "name": "Cluckgrounds Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "16"
+}

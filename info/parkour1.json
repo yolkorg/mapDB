@@ -1,0 +1,13 @@
+{
+    "filename": "parkour1",
+    "hash": "1fwysuizmoy",
+    "name": "Parkour - Easy",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18"
+}

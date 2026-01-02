@@ -1,0 +1,13 @@
+{
+    "filename": "dirtc",
+    "hash": "2fh0fc2pn37",
+    "name": "Dirt Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

@@ -1,0 +1,13 @@
+{
+    "filename": "scalesc",
+    "hash": "1u15kol0ai2",
+    "name": "Scales Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

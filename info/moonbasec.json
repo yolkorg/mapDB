@@ -1,0 +1,13 @@
+{
+    "filename": "moonbasec",
+    "hash": "1ky3sogeibd",
+    "name": "Moonbase Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}

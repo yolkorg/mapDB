@@ -1,0 +1,13 @@
+{
+    "filename": "outerC",
+    "hash": "23giy54l74i",
+    "name": "Outer Reach Eggsmas",
+    "modes": {
+        "FFA": true,
+        "Teams": true,
+        "Spatula": true,
+        "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18"
+}
